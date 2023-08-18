@@ -1,38 +1,92 @@
-.App {
-  text-align: center;
+.landing-page {
+    background-image: url('./assests/images/gradients.png');
+    height: 100%;
+    width: 100%;
+    height: 130vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+li{
+    font-family: 'Aeonik';
+    line-height: 35px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* p{
+    font-family: 'Aeonik';
+} */
+/* h1,  h3, h4, h5, h6{
+    font-family: 'Aeonik';
+} */
+button{
+    font-family: 'Aeonik';
+}
+h2{
+font-family: 'MadeUse';
+font-weight: 500;
+line-height: 72px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.landing-phase2{
+        background-image: url('./assests/images/Eazi\ Wave.png');
+        height: 100%;
+        width: 100%;
+        height: 130vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* .bg__circle{
+    background-image: url('./assests/images/BG.png');
+    height: 100%;
+    width: 30%;
+    z-index: 100000;
+    height: 130vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+} */
+
+.landing-phase3{
+   height: 165vh;
 }
 
-.App-link {
-  color: #61dafb;
+.landing-phase4{
+    background-image: url('./assests/images/Intersect.png');
+    height: 100%;
+    width: 100%;
+    height: 130vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input{
+    outline: none;
+}
+
+.high{
+   height: 150vh; 
+}
+/* .sidebar{
+    margin-top: -80px;
+} */
+
+.nav{
+    margin-top: -852px;
+}
+.apexcharts-legend-marker{
+    display: none !important;
+}
+.apexcharts-menu-icon{
+    display: none !important;
+}
+
+/* Mobile for Wallet */
+
+@media screen and (max-width: 768px){
+   .mobile{
+    display: block;
+   }
 }
