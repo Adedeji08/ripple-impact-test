@@ -15,12 +15,21 @@ import facebook from '../assests/icons/Group 36033.svg';
 import linkedin from '../assests/icons/Group 36032.svg';
 import SEND from '../assests/icons/send.svg';
 import { Link } from "react-router-dom";
+import { motion } from 'framer-motion';
 
 function LandingPage() {
   return (
-    <div>
+    <motion.div
+    initial={{ opacity: 0, y: -20 }}
+    animate={{ opacity: 1, y: 0 }}
+    transition={{ duration: 1 }}
+    >
       <div className="landing-page">
-        <div>
+        <motion.div
+         initial={{ opacity: 0, y: -20 }}
+         animate={{ opacity: 1, y: 0 }}
+         transition={{ duration: 1 }}
+        >
           <nav className=" md:w-[75%] w-[95%] mx-auto pt-7 flex justify-between">
             <div>
               <img src={Logo} alt="logo" />
@@ -70,12 +79,20 @@ function LandingPage() {
             </div>
             {/* Right */}
             <div className="md:w-[671.828px]">
-              <img src={Desktop} alt="desktop" className="md:mr-10" />
+              <motion.img src={Desktop} alt="desktop" className="md:mr-10" 
+               initial={{ opacity: 0, scale: 0.5 }}
+               animate={{ opacity: 1, scale: 1 }}
+               transition={{ duration: 1 }}
+              />
             </div>
           </div>
-        </div>
+        </motion.div>
       </div>
-      <div className="landing-phase2 justify-center text-center justify-items-center">
+      <motion.div 
+       initial={{ opacity: 0, y: -20 }}
+       animate={{ opacity: 1, y: 0 }}
+       transition={{ duration: 1 }}
+      className="landing-phase2 justify-center text-center justify-items-center">
         <h2 className="pt-[130px] md:text-[64px] text-[40px] font-bold text-[#11453b]">
           For Individuals and Businesses
         </h2>
@@ -91,7 +108,7 @@ function LandingPage() {
           <span className="text-[#EA4E4B]">hello@myeazipay.com</span> and expect
           our response shortly after.
         </p>
-      </div>
+      </motion.div>
       <div className="text-center justify-center justify-items-center landing-phase3">
         <h2 className="md:pt-[80px] md:text-[64px] text-[40px] font-bold text-[#11453b]">
           How Eazipay Works
@@ -99,14 +116,25 @@ function LandingPage() {
         <p className="text-[20px]">Get started in 3 simple steps.</p>
         <div className="w-[75%] mx-auto mt-14 flex justify-between">
           <div className="bg__circle">
-            <img src={EaziPay} alt="eazipay" />
+            <motion.img src={EaziPay} alt="eazipay" 
+             initial={{ opacity: 0, scale: 0.5 }}
+             animate={{ opacity: 1, scale: 1 }}
+             transition={{ duration: 1 }}
+            />
           </div>
-          <img src={payEazi} alt="eazipay" />
+          <motion.img src={payEazi} alt="eazipay" 
+           initial={{ opacity: 0, scale: 0.5 }}
+           animate={{ opacity: 1, scale: 1 }}
+           transition={{ duration: 1 }}
+          />
         </div>
       </div>
 
       <div className="landing-phase4  justify-center justify-items-center">
-        <img src={Frame25} alt="Frame25" className="ml-[90px]" />
+        <motion.img src={Frame25} alt="Frame25" className="ml-[90px]"
+         initial={{ opacity: 0, scale: 0.5 }}
+         animate={{ opacity: 1, scale: 1 }}
+         transition={{ duration: 1 }} />
         <div className="w-[85%] ml-[12%] md:flex md:mt-[90px]">
           {/* Left */}
           <div>
@@ -120,12 +148,18 @@ function LandingPage() {
               <p className="font font-bold"> Subscribe to the Eazilife today</p>
             </div>
             <div className="mt-5">
-              <img src={App} alt="desktop" className="" />
+              <img src={App} alt="desktop" className=""
+              
+              />
             </div>
           </div>
           {/* Right */}
           <div className="md:w-[671.828px] pr-14 pt-7">
-            <img src={Frame26} alt="desktop" className="md:mr-10" />
+            <motion.img src={Frame26} alt="desktop" className="md:mr-10" 
+             initial={{ opacity: 0, scale: 0.5 }}
+             animate={{ opacity: 1, scale: 1 }}
+             transition={{ duration: 1 }}
+            />
           </div>
         </div>
       </div>
@@ -224,7 +258,7 @@ function LandingPage() {
               </div>
              </div>
       </div>
-    </div>
+    </motion.div>
   );
 }
 
