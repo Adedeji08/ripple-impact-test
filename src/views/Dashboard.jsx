@@ -45,7 +45,7 @@ const Dashboard = () => {
           <img src={Dash} alt="frame" />
         </div>
       </div>
-      <div className="shadow-2xl h-[800px] mt-8">
+      <div className="shadow-2xl h-[600px] mt-8">
         <div className="flex justify-between w-[88%] py-10 mx-auto">
           <div>
             <p className="text-[#515251] font-medium">Inflow</p>
@@ -59,7 +59,7 @@ const Dashboard = () => {
             <p className="text-[#11453B] font-medium">Inflow/Outflow</p>
           </div>
         </div>
-        <div className=" h-[250px] w-[88%] py-10 mx-auto ">
+        <div className=" w-[90%] ml-20  mx-auto ">
           <LineChart />
         </div>
       </div>

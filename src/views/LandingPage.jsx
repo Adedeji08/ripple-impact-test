@@ -135,7 +135,7 @@ function LandingPage() {
           <div>
             <img src={Frame27} alt="frame" className="md:mt-10" />
             <h2 className="md:ml-[200px] ml-[50px] md:text-[64px] text-[40px] font-bold mt-10">Get an Exclusive <br/> Demo of Eazipay</h2>
-            <p className="md:ml-[200px] text-[24px] text-center text-[#515251]">Our greatest priority is to put you and<br/> your business first. Let’s show you how<br/> we can help.</p>
+            <p className="md:ml-[200px] text-[24px] text-center md:text-left text-[#515251]">Our greatest priority is to put you and<br/> your business first. Let’s show you how<br/> we can help.</p>
           </div>
           <div className="w-">
            <div className="w-[45%] ml-auto text-[#292A29]">

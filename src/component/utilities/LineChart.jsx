@@ -163,7 +163,7 @@ const LineChart = () => {
 
   return (
     <>
-      <div className="relative p-10 mb-10 rounded-lg">
+      <div className="absolute w-[50%]  h-[100px] p-10 rounded-lg">
         <Chart
           series={ChartData.series}
           options={ChartData.options}
