@@ -73,9 +73,7 @@ input{
     margin-top: -80px;
 } */
 
-.nav{
-    margin-top: -852px;
-}
+
 .apexcharts-legend-marker{
     display: none !important;
 }
@@ -90,3 +88,40 @@ input{
     display: block;
    }
 }
+.show {
+    transform: translateX(0);
+  }
+  
+  .hide {
+    transform: translateX(-100%);
+  }
+  /* Existing styles */
+
+/* Hide sidebar on desktop screens */
+.desktop-sidebar {
+    display: none;
+  }
+  
+  /* Show sidebar on mobile screens */
+  .sidebar.show {
+    transform: translateX(0);
+  }
+  
+  .sidebar.hide {
+    transform: translateX(-100%);
+  }
+  
+  /* Add media query to show/hide sidebar based on screen size */
+  @media screen and (min-width: 768px) {
+    .desktop-sidebar {
+      display: block;
+    }
+  
+    .sidebar {
+      transform: translateX(0);
+    }
+    .nav{
+        margin-top: -852px;
+    }
+  }
+  

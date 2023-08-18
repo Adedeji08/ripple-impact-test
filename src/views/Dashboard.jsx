@@ -21,8 +21,8 @@ const Dashboard = () => {
       <p>Pay and manage your employee in minutes</p>
       <div className="flex justify-betwwen">
         <div className="pr-[30px]">
-          <img src={Frame4} alt="frame" />
-          <div className="flex text-center gap-6 mb-4 ">
+          <img src={Frame4} alt="frame" className="mt-7" />
+          <div className="flex text-center gap-6 mb-4 mt-7 ">
             <div className="rounded-2xl shadow-2xl w-[170px] h-[125px]">
               <img src={Icon1} alt="icon" className="px-14 py-6" />
               <h3 className="text-[14px] font-semibold ">Add Employee</h3>

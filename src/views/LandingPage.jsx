@@ -48,7 +48,7 @@ function LandingPage() {
           <div className="w-[85%] ml-[12%] md:flex justify-between mt-[40px] md:mt-[90px]">
             {/* Left */}
             <div>
-              <h2 className="md:text-[64px] text-[40px] font-bold">
+              <h2 className="md:text-[55px] text-[40px] font-bold">
                 Run your <span className="text-[#292A29]">payroll</span>
                 <br /> <span className="text-[#B4A572]">easily</span> in{" "}
                 <span className="text-[#EA4E4B]">seconds</span>

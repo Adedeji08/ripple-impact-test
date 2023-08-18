@@ -3,10 +3,11 @@ import Frame from '../assests/images/Frame 48096183.svg'
 import { Book, Compliance, Dash, Loan, Roll, Settings, Support, Wallet, Yee } from '../assests/icons/icons'
 import { Link } from 'react-router-dom'
 
-const SiderBar = () => {
+
+const SiderBar = ({show, setShow}) => {
   return (
-    <div className='w-[272px] h-[852px] shadow-lg'>
-       <img src={Frame} alt='frame' />
+    <div className="w-[272px] h-[852px] shadow-lg">
+       <img src={Frame} alt='frame'  />
        <div className='mt-5 cursor-pointer'>
            <div className='bg-[#E7E8E7] border-b-2 outline-offset-2 border-solid border-[#F0F7EB80] py-5 px-6 gap-3 flex h-[60px]'>
               <Dash />

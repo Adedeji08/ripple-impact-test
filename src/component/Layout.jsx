@@ -10,7 +10,7 @@ const Layout = ({ children }) => {
   return (
     <div className="w-full">
           <div className=" w-[310px] desktop-sidebar">
-          <SiderBar  /> 
+          <SiderBar show={showSidebar} setShow={setShowSidebar} /> 
         </div>
       <NavBar show={showSidebar} setShow={setShowSidebar} />
       <div className=" sidebar w-full">
